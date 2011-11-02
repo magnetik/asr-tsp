@@ -1,0 +1,129 @@
+NbCities =   7	seed = 14041	len = 203	minimum_path:	 0  6  2  5  4  3  1
+NbCities =   7	seed = 3880	len = 123	minimum_path:	 0  3  1  2  6  5  4
+NbCities =   7	seed = 8653	len = 175	minimum_path:	 0  2  3  6  5  1  4
+NbCities =   7	seed = 20925	len = 211	minimum_path:	 0  1  4  2  3  5  6
+NbCities =   7	seed = 3496	len = 158	minimum_path:	 0  2  5  4  3  6  1
+NbCities =   7	seed = 12318	len = 207	minimum_path:	 0  2  1  3  5  6  4
+NbCities =   7	seed = 15627	len = 174	minimum_path:	 0  6  1  2  4  5  3
+NbCities =   7	seed = 20883	len = 241	minimum_path:	 0  4  3  1  6  5  2
+NbCities =   7	seed = 15014	len = 227	minimum_path:	 0  5  1  2  6  4  3
+NbCities =   7	seed = 27253	len = 223	minimum_path:	 0  2  6  1  5  3  4
+NbCities =   7	seed = 11495	len = 206	minimum_path:	 0  5  1  4  6  2  3
+NbCities =   7	seed = 31655	len = 168	minimum_path:	 0  2  4  1  6  5  3
+NbCities =   7	seed = 17549	len = 133	minimum_path:	 0  1  5  4  6  2  3
+NbCities =   7	seed = 1486	len = 222	minimum_path:	 0  6  3  2  5  4  1
+NbCities =   7	seed = 9336	len = 187	minimum_path:	 0  2  3  1  6  5  4
+NbCities =   7	seed = 31181	len = 174	minimum_path:	 0  3  4  5  2  1  6
+NbCities =   7	seed = 13980	len = 168	minimum_path:	 0  4  2  5  6  3  1
+NbCities =   7	seed = 31476	len = 206	minimum_path:	 0  6  3  1  4  2  5
+NbCities =   7	seed = 18739	len = 226	minimum_path:	 0  4  1  3  6  5  2
+NbCities =   7	seed = 27663	len = 192	minimum_path:	 0  1  3  6  4  5  2
+NbCities =   8	seed = 450	len = 203	minimum_path:	 0  4  2  3  6  7  1  5
+NbCities =   8	seed = 2628	len = 157	minimum_path:	 0  5  2  7  4  6  3  1
+NbCities =   8	seed = 12997	len = 239	minimum_path:	 0  4  6  5  3  7  1  2
+NbCities =   8	seed = 21926	len = 198	minimum_path:	 0  7  1  6  3  2  5  4
+NbCities =   8	seed = 12242	len = 109	minimum_path:	 0  4  7  6  3  2  5  1
+NbCities =   8	seed = 4425	len = 187	minimum_path:	 0  5  6  4  7  2  1  3
+NbCities =   8	seed = 24527	len = 165	minimum_path:	 0  5  2  6  1  7  3  4
+NbCities =   8	seed = 13854	len = 160	minimum_path:	 0  6  1  7  5  2  4  3
+NbCities =   8	seed = 28277	len = 234	minimum_path:	 0  2  7  6  5  4  3  1
+NbCities =   8	seed = 24350	len = 213	minimum_path:	 0  4  3  2  5  1  6  7
+NbCities =   8	seed = 24460	len = 201	minimum_path:	 0  2  7  6  5  4  1  3
+NbCities =   8	seed = 5087	len = 239	minimum_path:	 0  6  5  2  1  4  3  7
+NbCities =   8	seed = 10315	len = 235	minimum_path:	 0  6  5  7  3  2  1  4
+NbCities =   8	seed = 2486	len = 178	minimum_path:	 0  1  7  6  3  2  5  4
+NbCities =   8	seed = 9347	len = 183	minimum_path:	 0  7  4  1  3  6  5  2
+NbCities =   8	seed = 17486	len = 199	minimum_path:	 0  3  2  5  7  4  1  6
+NbCities =   8	seed = 25591	len = 208	minimum_path:	 0  7  6  1  4  2  3  5
+NbCities =   8	seed = 4016	len = 195	minimum_path:	 0  3  5  1  2  7  4  6
+NbCities =   8	seed = 29449	len = 168	minimum_path:	 0  5  4  1  2  7  3  6
+NbCities =   8	seed = 2779	len = 168	minimum_path:	 0  7  1  2  3  6  4  5
+NbCities =   9	seed = 12937	len = 202	minimum_path:	 0  1  2  3  6  5  4  7  8
+NbCities =   9	seed = 28444	len = 195	minimum_path:	 0  4  5  6  2  1  8  3  7
+NbCities =   9	seed = 6540	len = 218	minimum_path:	 0  4  2  1  8  3  6  5  7
+NbCities =   9	seed = 24648	len = 237	minimum_path:	 0  3  6  2  8  1  4  7  5
+NbCities =   9	seed = 20623	len = 247	minimum_path:	 0  2  4  1  3  8  5  7  6
+NbCities =   9	seed = 27782	len = 229	minimum_path:	 0  7  2  5  6  8  4  3  1
+NbCities =   9	seed = 25687	len = 252	minimum_path:	 0  8  1  3  2  7  4  6  5
+NbCities =   9	seed = 18548	len = 216	minimum_path:	 0  3  1  4  6  5  7  2  8
+NbCities =   9	seed = 27749	len = 160	minimum_path:	 0  7  3  2  8  5  1  4  6
+NbCities =   9	seed = 24735	len = 243	minimum_path:	 0  8  3  1  5  6  4  2  7
+NbCities =   9	seed = 29028	len = 211	minimum_path:	 0  7  1  3  5  2  8  6  4
+NbCities =   9	seed = 6753	len = 161	minimum_path:	 0  3  1  2  5  7  4  6  8
+NbCities =   9	seed = 24165	len = 188	minimum_path:	 0  2  8  1  3  5  4  6  7
+NbCities =   9	seed = 16300	len = 157	minimum_path:	 0  2  7  5  1  4  8  3  6
+NbCities =   9	seed = 29159	len = 199	minimum_path:	 0  2  4  5  1  3  8  6  7
+NbCities =   9	seed = 9367	len = 236	minimum_path:	 0  1  4  3  8  6  2  5  7
+NbCities =   9	seed = 19447	len = 242	minimum_path:	 0  1  5  6  2  7  8  3  4
+NbCities =   9	seed = 22661	len = 201	minimum_path:	 0  5  7  4  8  1  2  6  3
+NbCities =   9	seed = 11010	len = 230	minimum_path:	 0  5  3  1  6  7  2  8  4
+NbCities =   9	seed = 4805	len = 237	minimum_path:	 0  5  8  1  7  3  6  4  2
+NbCities =  10	seed = 29611	len = 208	minimum_path:	 0  5  8  1  3  7  9  2  6  4
+NbCities =  10	seed = 29785	len = 189	minimum_path:	 0  4  6  8  5  7  9  3  2  1
+NbCities =  10	seed = 3565	len = 222	minimum_path:	 0  7  2  6  4  1  3  9  8  5
+NbCities =  10	seed = 30274	len = 169	minimum_path:	 0  9  1  3  7  2  6  4  5  8
+NbCities =  10	seed = 31981	len = 223	minimum_path:	 0  2  6  7  4  8  3  5  1  9
+NbCities =  10	seed = 22319	len = 273	minimum_path:	 0  4  7  5  9  2  6  8  3  1
+NbCities =  10	seed = 24777	len = 284	minimum_path:	 0  3  9  6  5  7  2  8  1  4
+NbCities =  10	seed = 19056	len = 274	minimum_path:	 0  6  3  9  7  4  2  8  1  5
+NbCities =  10	seed = 13010	len = 258	minimum_path:	 0  8  9  3  2  5  4  7  1  6
+NbCities =  10	seed = 4628	len = 257	minimum_path:	 0  8  3  7  2  5  4  9  6  1
+NbCities =  10	seed = 32585	len = 253	minimum_path:	 0  4  1  8  7  5  2  6  3  9
+NbCities =  10	seed = 8778	len = 294	minimum_path:	 0  9  2  8  5  4  6  7  3  1
+NbCities =  10	seed = 17048	len = 227	minimum_path:	 0  5  8  9  6  3  2  7  1  4
+NbCities =  10	seed = 4922	len = 249	minimum_path:	 0  5  4  8  3  9  2  7  1  6
+NbCities =  10	seed = 17852	len = 202	minimum_path:	 0  4  9  3  8  1  5  7  2  6
+NbCities =  10	seed = 29000	len = 264	minimum_path:	 0  6  5  7  2  4  8  1  3  9
+NbCities =  10	seed = 22636	len = 240	minimum_path:	 0  9  1  8  6  5  3  4  2  7
+NbCities =  10	seed = 19668	len = 241	minimum_path:	 0  4  1  3  8  5  7  6  9  2
+NbCities =  10	seed = 635	len = 249	minimum_path:	 0  1  2  5  4  6  3  8  9  7
+NbCities =  10	seed = 30110	len = 201	minimum_path:	 0  2  5  9  7  3  4  6  1  8
+NbCities =  11	seed = 4449	len = 242	minimum_path:	 0  3  7  5 10  1  4  2  8  6  9
+NbCities =  11	seed = 10192	len = 264	minimum_path:	 0  2 10  8  7  9  3  6  1  4  5
+NbCities =  11	seed = 27183	len = 267	minimum_path:	 0  2  3  7 10  4  6  1  8  5  9
+NbCities =  11	seed = 24329	len = 307	minimum_path:	 0 10  9  3  4  6  2  8  5  1  7
+NbCities =  11	seed = 30016	len = 274	minimum_path:	 0  4  1  3  5  2  6  9  7 10  8
+NbCities =  11	seed = 16642	len = 273	minimum_path:	 0  2  3  9  5  6  1  8  4 10  7
+NbCities =  11	seed = 5863	len = 236	minimum_path:	 0  5  1  2  3  6  9 10  4  7  8
+NbCities =  11	seed = 9875	len = 273	minimum_path:	 0  9  3  6 10  5  2  8  1  7  4
+NbCities =  11	seed = 2396	len = 250	minimum_path:	 0  4  5  6 10  2  3  8  9  1  7
+NbCities =  11	seed = 12987	len = 253	minimum_path:	 0  4  1  3  6 10  7  9  8  5  2
+NbCities =  12	seed = 13702	len = 247	minimum_path:	 0 11  7  3  2  6  8  4 10  9  1  5
+NbCities =  12	seed = 30676	len = 235	minimum_path:	 0  8 11  7  1 10  2  3  4  5  9  6
+NbCities =  12	seed = 10570	len = 240	minimum_path:	 0  6  1 11  7  2  9  3 10  4  5  8
+NbCities =  12	seed = 28298	len = 267	minimum_path:	 0 11  5  2  3  9  4  6  7 10  8  1
+NbCities =  12	seed = 23055	len = 203	minimum_path:	 0  1  4  8  2 11  3  6  9 10  7  5
+NbCities =  12	seed = 7749	len = 234	minimum_path:	 0  1  9 11  6  8  3  2  7 10  5  4
+NbCities =  12	seed = 29344	len = 242	minimum_path:	 0  9  3 10  1  8  6 11  2  5  4  7
+NbCities =  12	seed = 8782	len = 246	minimum_path:	 0  8  1 10  5  2  9  3  7 11  4  6
+NbCities =  12	seed = 18081	len = 250	minimum_path:	 0  8  3 11  5  9  6  1  2  4 10  7
+NbCities =  12	seed = 10965	len = 249	minimum_path:	 0 10  5  7  3  2  6  4  9  8 11  1
+NbCities =  13	seed = 10077	len = 194	minimum_path:	 0  4 12 10  5  7  9  8  2  6  1 11  3
+NbCities =  13	seed = 29829	len = 268	minimum_path:	 0  5 11 12 10  2  1  3  9  7  4  6  8
+NbCities =  13	seed = 26607	len = 235	minimum_path:	 0  8  1  9 11  7  2  6  3  4 12  5 10
+NbCities =  13	seed = 12089	len = 289	minimum_path:	 0  9 12  8  1  2  6  3 10 11  7  4  5
+NbCities =  13	seed = 23584	len = 328	minimum_path:	 0 11  1  6  2  9 12  7  8 10  4  3  5
+NbCities =  14	seed = 19186	len = 263	minimum_path:	 0  9  3  2 11 12  6  8  5  1 13 10  4  7
+NbCities =  14	seed = 28145	len = 320	minimum_path:	 0  2  9  8  1 12  6  4  5 13  7 10  3 11
+NbCities =  14	seed = 2913	len = 248	minimum_path:	 0  9  5 13  1 10 11  7  4  8  6  3  2 12
+NbCities =  14	seed = 4861	len = 312	minimum_path:	 0 11  8  1 10  6  5 12 13  7  9  4  3  2
+NbCities =  14	seed = 9374	len = 310	minimum_path:	 0  1  3  6  7  2  4 11  5 13  9 10  8 12
+NbCities =  14	seed = 15111	len = 245	minimum_path:	 0 10  4  5 13 12  2  8  9  6  3  1  7 11
+NbCities =  14	seed = 19788	len = 263	minimum_path:	 0  4  8 12 13  7 11  9 10  5  1  6  2  3
+NbCities =  14	seed = 29032	len = 264	minimum_path:	 0  2  8  9  6  5 12  7 11  4 13  3  1 10
+NbCities =  14	seed = 1954	len = 284	minimum_path:	 0  6  1  2 12 10  4 13  5  9 11  7  8  3
+NbCities =  14	seed = 11730	len = 217	minimum_path:	 0  8  5  4  3  7 10  2 13  1 11  9  6 12
+NbCities =  15	seed = 13358	len = 297	minimum_path:	 0  4  8  9 12 11  3  6  5 14  1 13  2 10  7
+NbCities =  15	seed = 20729	len = 334	minimum_path:	 0 10 11 13  2 12  6  1  5  8  7  9  3 14  4
+NbCities =  15	seed = 19325	len = 275	minimum_path:	 0 11  5  2  9 12  7  1 10 14  8  3  6  4 13
+NbCities =  15	seed = 9452	len = 317	minimum_path:	 0  2 11  5 14  7  8  9  6  1  3 10  4 13 12
+NbCities =  15	seed = 22157	len = 309	minimum_path:	 0 12  8  5 13  2 14  3  9  6 11  7  1  4 10
+NbCities =  15	seed = 267	len = 262	minimum_path:	 0  7  9  2 14 12  4  3 11  6  5 10 13  1  8
+NbCities =  15	seed = 31703	len = 284	minimum_path:	 0 13  2  9 11 10  6  5 12  3  7  4 14  1  8
+NbCities =  15	seed = 31824	len = 284	minimum_path:	 0 14  9  5 13  6  3  1  8  7 12  2 10  4 11
+NbCities =  15	seed = 7252	len = 276	minimum_path:	 0  7 10  5 11  8 13  2  9  1 12  4  6  3 14
+NbCities =  15	seed = 7730	len = 279	minimum_path:	 0 13 11 10  9  5  3 12  2  8  4  6  1 14  7
+NbCities =  15	seed = 2811	len = 291	minimum_path:	 0  9  1 10 11  2 13  6  4  7 14 12  8  5  3
+NbCities =  15	seed = 1378	len = 323	minimum_path:	 0  5  3 10 12 13  7  6 14  4  1 11  2  9  8
+NbCities =  15	seed = 31891	len = 335	minimum_path:	 0  9  8 14  7  2  5 11  6  3  4 10  1 12 13
+NbCities =  15	seed = 20566	len = 226	minimum_path:	 0 13  1  5 14  3 10  7  9 11 12  2  6  4  8
