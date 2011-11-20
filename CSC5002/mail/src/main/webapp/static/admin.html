@@ -1,0 +1,73 @@
+<html>
+<body>
+<script type="text/javascript" src="scripts/jquery-1.7.js"></script>
+<script type="text/javascript" src="scripts/adminscript.js"></script>
+	
+	<h1>AddNewsBox</h1>
+	
+	<form action="" method="post">
+		<p>
+			Name : <input id="addNewsBoxName" type="text" name="name" />
+		</p>
+		<input id="addNewsBox" type="button" value="Add NewsBox" />
+	</form>
+	
+	<h1>DeleteNewsBox</h1>
+	
+	<form action="" method="post">
+		<p>
+			Name : <input id="deleteNewsBoxName" type="text" name="name" />
+		</p>
+		<input id="deleteNewsBox" type="button" value="Delete Box" />
+	</form>
+	
+	<h1>AddUser</h1>
+	
+	<form action="" method="post">
+		<p>
+			Name : <input id="addUserName" type="text" name="name" />
+		</p>
+		<input id="addUser" type="button" value="Add User" />
+	</form>
+	
+	<h1>DeleteUser</h1>
+	
+	<form action="" method="post">
+		<p>
+			Name : <input id="deleteUserName" type="text" name="name" />
+		</p>
+		<input id="deleteUser" type="button" value="Delete User" />
+	</form>
+ 
+ 
+ 	<h1>Set user right</h1>
+	
+	<form action="" method="post">
+		<p><input id="listUserNewsBox" type="button" value="Update user & box list" /></p>
+		<select id="userList">
+		</select>
+		
+		<select id="newsBoxList">
+		</select>
+		
+		<select id="right">
+			<option>Write</option>
+			<option>Read</option>
+			<option selected="selected">None</option>
+		</select>
+
+		
+		<input id="updateUserRight" type="button" value="Update user right" />
+	</form>
+	
+	<h1>Get A Box Messages</h1>
+	<div id="Messages"></div>
+	<form action="" method="post">
+		<p>
+			BoxName : <input id="getMessageBox" type="text" name="getMessageBox" />
+		</p>
+		<input type="button" value="Get messages" id="getMessages" />
+	</form>
+	
+</body>
+</html>

@@ -1,0 +1,34 @@
+<html>
+<body>
+<script type="text/javascript" src="scripts/jquery-1.7.js"></script>
+<script type="text/javascript" src="scripts/userscript.js"></script>
+
+Your name : <input id="MyName" type="text" name="name" />
+
+
+	<h1>Get messages</h1>
+	<p>Got messages from : <span id="MessagesBox"></span></p>
+	<div id="Messages"></div>
+	<form action="http://localhost:8088/jersey-demo/mbm/box" method="post">
+		<input type="button" value="Get messages" id="getMessages" />
+	</form>
+
+	<h1>Send a message to a box</h1>
+	<p><input type="button" id="toUpdate" value="Update destination list">
+ 
+	<form action="http://localhost:8088/jersey-demo/mbm/box" method="post">
+		<p>
+			To : <select id="addMessageTo" name="name"></select>
+		</p>
+		<p>
+			Subject : <input id="addMessageSubject" type="text" name="name" />
+		</p>
+		<p>
+			Body : <input id="addMessageBody" type="text" name="name" />
+		</p>
+		<input id="addMessage" type="button" value="Add Message" />
+	</form>
+	
+	
+</body>
+</html>

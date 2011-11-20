@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="1.0" xmlns="http://java.sun.com/xml/ns/persistence"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://java.sun.com/xml/ns/persistence
+    http://java.sun.com/xml/ns/persistence/persistence_1_0.xsd">
+
+    <persistence-unit name="MessagePU" transaction-type="RESOURCE_LOCAL">
+
+        <provider>oracle.toplink.essentials.ejb.cmp3.EntityManagerFactoryProvider</provider>
+        <class>box.message.Message</class>
+        <class>box.Box</class>
+        <class>directory.UserRight</class>
+        <class>directory.User</class>
+
+        <properties>
+            <property name="toplink" value="MYSQL"/>
+            <property name="toplink.jdbc.url" value="jdbc:mysql://www-inf.it-sudparis.eu:3306/CSC5002_7?sessionVariables=storage_engine=InnoDB"/>
+            <property name="toplink.jdbc.driver" value="com.mysql.jdbc.Driver"/>
+            <property name="toplink.jdbc.user" value="adm_csc5002_7"/>
+            <property name="toplink.jdbc.password" value="Monday11October"/>
+            <property name="toplink.ddl-generation" value="create-tables"/>
+            <property name="toplink.logging.level" value="SEVERE"/>
+        </properties>
+    </persistence-unit>
+</persistence>
