@@ -1,0 +1,8 @@
+PREFIX ns: <http://www.owl-ontologies.com/Ontology1322576720.owl#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+SELECT ?user ?age
+WHERE { 
+        ?user rdf:type ns:PersonneAge.
+        ?user ns:age ?age. 
+}

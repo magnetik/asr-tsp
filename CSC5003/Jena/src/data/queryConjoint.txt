@@ -1,0 +1,13 @@
+PREFIX ns: <http://www.owl-ontologies.com/Ontology1322576720.owl#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> 
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX tg:<http://www.turnguard.com/functions#>
+
+SELECT ?perso  ?conjoint ?age
+WHERE {
+	 ?perso ns:nom "%PARAMETER%" .
+	 ?perso ns:se_marier_avec ?conjoint .	
+	 ?conjoint ns:age ?age .
+}

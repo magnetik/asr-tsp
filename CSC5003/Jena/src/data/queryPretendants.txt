@@ -1,0 +1,22 @@
+PREFIX ns: <http://www.owl-ontologies.com/Ontology1322576720.owl#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> 
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX tg:<http://www.turnguard.com/functions#>
+
+SELECT ?perso2
+WHERE {
+	 ?perso ns:nom "%PARAMETER%" .
+	 ?perso ns:age ?agePerso .
+
+	 ?perso rdf:type ?type .
+	 ?type owl:disjointWith ?oposite .
+
+	 ?perso2 rdf:type ?oposite .
+	 ?perso2 ns:age ?agePerso2 .
+
+	OPTIONAL { ?perso2 ns:se_marier_avec ?perso3 }
+	
+	 FILTER ((?type = ns:Homme || ?type = ns:Femme) && ((?agePerso2 >= (?agePerso - 30)) && (?agePerso2 <= (?agePerso + 30))) && (!bound(?perso3)))
+}

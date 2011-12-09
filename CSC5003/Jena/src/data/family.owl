@@ -1,0 +1,419 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:protege="http://protege.stanford.edu/plugins/owl/protege#"
+    xmlns="http://www.owl-ontologies.com/Ontology1322576720.owl#"
+    xmlns:xsp="http://www.owl-ontologies.com/2005/08/07/xsp.owl#"
+    xmlns:assert="http://www.owl-ontologies.com/assert.owl#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:swrl="http://www.w3.org/2003/11/swrl#"
+    xmlns:swrlb="http://www.w3.org/2003/11/swrlb#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xml:base="http://www.owl-ontologies.com/Ontology1322576720.owl">
+  <owl:Ontology rdf:about=""/>
+  <owl:Class rdf:ID="Jeune">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Jeune</rdfs:label>
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Personne"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="PersonneAge">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >PersonneAge</rdfs:label>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Personne"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Mere">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Parent"/>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Femme"/>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >1</owl:minCardinality>
+        <owl:onProperty>
+          <owl:ObjectProperty rdf:ID="est_mere_de"/>
+        </owl:onProperty>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Mere</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="Frere">
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Homme"/>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Fraterie"/>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty>
+          <owl:ObjectProperty rdf:ID="estFrereDe"/>
+        </owl:onProperty>
+        <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >1</owl:minCardinality>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Frere</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="Fille">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Fille</rdfs:label>
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="Enfant"/>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty>
+          <owl:ObjectProperty rdf:ID="estFilleDe"/>
+        </owl:onProperty>
+        <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >1</owl:minCardinality>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <owl:disjointWith>
+      <owl:Class rdf:ID="Fils"/>
+    </owl:disjointWith>
+  </owl:Class>
+  <owl:Class rdf:about="#Femme">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Personne"/>
+    </rdfs:subClassOf>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Femme</rdfs:label>
+    <owl:disjointWith>
+      <owl:Class rdf:about="#Homme"/>
+    </owl:disjointWith>
+  </owl:Class>
+  <owl:Class rdf:ID="Tante">
+    <rdfs:subClassOf rdf:resource="#Femme"/>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:someValuesFrom>
+          <owl:Class rdf:about="#Parent"/>
+        </owl:someValuesFrom>
+        <owl:onProperty>
+          <owl:ObjectProperty rdf:ID="estSoeurDe"/>
+        </owl:onProperty>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Tante</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="#Fils">
+    <owl:disjointWith rdf:resource="#Fille"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Fils</rdfs:label>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Enfant"/>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >1</owl:minCardinality>
+        <owl:onProperty>
+          <owl:ObjectProperty rdf:ID="estFilsDe"/>
+        </owl:onProperty>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="#Homme">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Homme</rdfs:label>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Personne"/>
+    </rdfs:subClassOf>
+    <owl:disjointWith rdf:resource="#Femme"/>
+  </owl:Class>
+  <owl:Class rdf:about="#Parent">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Parent</rdfs:label>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Personne"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:ID="Pere">
+    <rdfs:subClassOf rdf:resource="#Parent"/>
+    <rdfs:subClassOf rdf:resource="#Homme"/>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >1</owl:minCardinality>
+        <owl:onProperty>
+          <owl:ObjectProperty rdf:ID="est_pere_de"/>
+        </owl:onProperty>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Pere</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="GrandPere">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >GrandPere</rdfs:label>
+    <rdfs:subClassOf rdf:resource="#Homme"/>
+    <rdfs:subClassOf>
+      <owl:Class rdf:ID="GrandParent"/>
+    </rdfs:subClassOf>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty>
+          <owl:ObjectProperty rdf:about="#est_pere_de"/>
+        </owl:onProperty>
+        <owl:someValuesFrom rdf:resource="#Parent"/>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="#Enfant">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Enfant</rdfs:label>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Personne"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="#GrandParent">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Personne"/>
+    </rdfs:subClassOf>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >GrandParent</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="#Fraterie">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="#Personne"/>
+    </rdfs:subClassOf>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Fraterie</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="Soeur">
+    <rdfs:subClassOf rdf:resource="#Femme"/>
+    <rdfs:subClassOf rdf:resource="#Fraterie"/>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >1</owl:minCardinality>
+        <owl:onProperty>
+          <owl:ObjectProperty rdf:about="#estSoeurDe"/>
+        </owl:onProperty>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Soeur</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="GrandMere">
+    <rdfs:subClassOf rdf:resource="#GrandParent"/>
+    <rdfs:subClassOf rdf:resource="#Femme"/>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:someValuesFrom rdf:resource="#Parent"/>
+        <owl:onProperty>
+          <owl:ObjectProperty rdf:about="#est_mere_de"/>
+        </owl:onProperty>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >GrandMere</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:ID="Oncle">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Oncle</rdfs:label>
+    <rdfs:subClassOf rdf:resource="#Homme"/>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty>
+          <owl:ObjectProperty rdf:about="#estFrereDe"/>
+        </owl:onProperty>
+        <owl:someValuesFrom rdf:resource="#Parent"/>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="#Personne">
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Personne</rdfs:label>
+  </owl:Class>
+  <owl:ObjectProperty rdf:about="#estFrereDe">
+    <rdfs:range rdf:resource="#Fraterie"/>
+    <rdfs:subPropertyOf>
+      <owl:ObjectProperty rdf:ID="estEnRelationDeFraterieAvec"/>
+    </rdfs:subPropertyOf>
+    <rdfs:domain rdf:resource="#Frere"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:ID="estEnfantDe">
+    <rdfs:range rdf:resource="#Personne"/>
+    <rdfs:domain rdf:resource="#Personne"/>
+    <owl:inverseOf>
+      <owl:ObjectProperty rdf:ID="est_parent_de"/>
+    </owl:inverseOf>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="#est_mere_de">
+    <rdfs:domain rdf:resource="#Mere"/>
+    <rdfs:subPropertyOf>
+      <owl:ObjectProperty rdf:about="#est_parent_de"/>
+    </rdfs:subPropertyOf>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:ID="se_marier_avec">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+    <rdfs:domain rdf:resource="#Personne"/>
+    <rdfs:range rdf:resource="#Personne"/>
+    <owl:inverseOf rdf:resource="#se_marier_avec"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="#est_pere_de">
+    <rdfs:subPropertyOf>
+      <owl:ObjectProperty rdf:about="#est_parent_de"/>
+    </rdfs:subPropertyOf>
+    <rdfs:range rdf:resource="#Enfant"/>
+    <rdfs:domain rdf:resource="#Pere"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="#estEnRelationDeFraterieAvec">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+    <rdfs:range rdf:resource="#Personne"/>
+    <rdfs:domain rdf:resource="#Personne"/>
+    <owl:inverseOf rdf:resource="#estEnRelationDeFraterieAvec"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="#est_parent_de">
+    <owl:inverseOf rdf:resource="#estEnfantDe"/>
+    <rdfs:domain rdf:resource="#Personne"/>
+    <rdfs:range rdf:resource="#Personne"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="#estSoeurDe">
+    <rdfs:subPropertyOf rdf:resource="#estEnRelationDeFraterieAvec"/>
+    <rdfs:domain rdf:resource="#Soeur"/>
+    <rdfs:range rdf:resource="#Fraterie"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="#estFilleDe">
+    <rdfs:range rdf:resource="#Parent"/>
+    <rdfs:subPropertyOf rdf:resource="#estEnfantDe"/>
+    <rdfs:domain rdf:resource="#Fille"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="#estFilsDe">
+    <rdfs:subPropertyOf rdf:resource="#estEnfantDe"/>
+    <rdfs:domain rdf:resource="#Fils"/>
+    <rdfs:range rdf:resource="#Parent"/>
+  </owl:ObjectProperty>
+  <owl:DatatypeProperty rdf:ID="nom">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:domain rdf:resource="#Personne"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="nationalite">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:domain rdf:resource="#Personne"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:ID="age">
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    <rdfs:domain rdf:resource="#Personne"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+  </owl:DatatypeProperty>
+  <Femme rdf:ID="Chloé">
+    <estFilleDe>
+      <Femme rdf:ID="Marie">
+        <nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+        >Marie</nom>
+        <nationalite rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+        >française</nationalite>
+        <se_marier_avec>
+          <Homme rdf:ID="Peter">
+            <nationalite rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+            >française</nationalite>
+            <se_marier_avec rdf:resource="#Marie"/>
+            <nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+            >Peter</nom>
+            <age rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+            >70</age>
+          </Homme>
+        </se_marier_avec>
+        <age rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >69</age>
+      </Femme>
+    </estFilleDe>
+    <estFilleDe rdf:resource="#Peter"/>
+    <nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Chloé</nom>
+    <age rdf:datatype="http://www.w3.org/2001/XMLSchema#int">18</age>
+  </Femme>
+  <Homme rdf:ID="Jean">
+    <nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Jean</nom>
+    <nationalite rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >anglaise</nationalite>
+    <age rdf:datatype="http://www.w3.org/2001/XMLSchema#int">10</age>
+    <estFilsDe>
+      <Homme rdf:ID="John">
+        <nationalite rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+        >anglaise</nationalite>
+        <age rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >45</age>
+        <se_marier_avec>
+          <Femme rdf:ID="Sylvie">
+            <nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+            >Sylvie</nom>
+            <se_marier_avec rdf:resource="#John"/>
+            <estFilleDe rdf:resource="#Marie"/>
+            <estFilleDe rdf:resource="#Peter"/>
+            <age rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+            >30</age>
+          </Femme>
+        </se_marier_avec>
+        <nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+        >John</nom>
+      </Homme>
+    </estFilsDe>
+  </Homme>
+  <Homme rdf:ID="Tom">
+    <age rdf:datatype="http://www.w3.org/2001/XMLSchema#int">10</age>
+    <estFilsDe>
+      <Homme rdf:ID="Thomas">
+        <estFilsDe rdf:resource="#Peter"/>
+        <nationalite rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+        >française</nationalite>
+        <age rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >40</age>
+        <nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+        >Thomas</nom>
+        <se_marier_avec>
+          <Femme rdf:ID="Alex">
+            <se_marier_avec rdf:resource="#Thomas"/>
+            <age rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+            >25</age>
+            <nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+            >Alex</nom>
+          </Femme>
+        </se_marier_avec>
+      </Homme>
+    </estFilsDe>
+    <estFilsDe rdf:resource="#Alex"/>
+    <nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Tom</nom>
+  </Homme>
+  <Femme rdf:ID="Claude">
+    <estFilleDe rdf:resource="#Sylvie"/>
+    <age rdf:datatype="http://www.w3.org/2001/XMLSchema#int">5</age>
+    <nationalite rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >française</nationalite>
+    <nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Claude</nom>
+  </Femme>
+  <Homme rdf:ID="Paul">
+    <estFilsDe rdf:resource="#Peter"/>
+    <age rdf:datatype="http://www.w3.org/2001/XMLSchema#int">38</age>
+    <nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Paul</nom>
+  </Homme>
+  <Homme rdf:ID="Michael">
+    <age rdf:datatype="http://www.w3.org/2001/XMLSchema#int">5</age>
+    <nom rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Michael</nom>
+    <estFilsDe rdf:resource="#Alex"/>
+    <estFilsDe rdf:resource="#Thomas"/>
+  </Homme>
+</rdf:RDF>
+
+<!-- Created with Protege (with OWL Plugin 3.4.1, Build 536)  http://protege.stanford.edu -->

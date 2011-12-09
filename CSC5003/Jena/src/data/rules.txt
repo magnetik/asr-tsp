@@ -1,0 +1,26 @@
+@prefix ns: <http://www.owl-ontologies.com/Ontology1322576720.owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>. 
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+
+
+[rule1: (?per rdf:type ns:Personne) (?per ns:age ?age) greaterThan(?age, 60)   ->  (?per rdf:type ns:PersonneAge)]
+
+[rule2: (?fille ns:estFilleDe ?parent) -> (?fille ns:estEnfantDe ?parent)]
+[rule3: (?fils ns:estFilsDe ?parent) -> (?fils ns:estEnfantDe ?parent)]
+[rule4: (?enfant ns:estFilsDe ?parent) -> (?parent ns:est_parent_de ?enfant)]
+[rule5: (?enfant ns:estFilleDe ?parent) -> (?parent ns:est_parent_de ?enfant)]
+
+[rule6: (?parent ns:est_parent_de ?enfant) (?parent rdf:type ns:Femme) -> (?parent ns:est_mere_de ?enfant) (?parent rdf:type ns:Mere)]
+[rule7: (?parent ns:est_parent_de ?enfant) (?parent rdf:type ns:Homme) -> (?parent ns:est_pere_de ?enfant) (?parent rdf:type ns:Pere)]
+
+[rule9: (?enfant1 ns:estFilsDe ?parent) (?enfant2 ns:estEnfantDe ?parent) -> (?enfant1 ns:estFrereDe ?enfant2) (?enfant1 rdf:type ns:Frere)]
+[rule10: (?enfant1 ns:estFilleDe ?parent) (?enfant2 ns:estEnfantDe ?parent) -> (?enfant1 ns:estSoeurDe ?enfant2) (?enfant1 rdf:type ns:Soeur)]
+
+[rule11: (?parent ns:est_parent_de ?enfant) (?oncle ns:estFrereDe ?parent) -> (?oncle rdf:type ns:Oncle)]
+[rule12: (?parent ns:est_parent_de ?enfant) (?tante ns:estSoeurDe ?parent) -> (?tante rdf:type ns:Tante)]
+
+[rule13: (?parent ns:est_parent_de ?enfant) (?grandmere ns:est_mere_de ?parent) -> (?grandmere rdf:type ns:GrandMere)]
+[rule14: (?parent ns:est_parent_de ?enfant) (?grandpere ns:est_pere_de ?parent) -> (?grandpere rdf:type ns:GrandPere)]
+
+[rule15: (?parent ns:est_parent_de ?enfant) (?parent ns:nationalité ?nationalité) -> (?enfant ns:nationalité ?nationalité)]
