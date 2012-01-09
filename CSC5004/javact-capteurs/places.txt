@@ -1,0 +1,21 @@
+# Ce fichier indique l'ensemble des places accessibles depuis
+# la place courante, qui peuvent être utilisées lorsque la
+# destination n'est pas précisée lors de la création d'un acteur.
+# On peut utiliser toutes les formes d'URL :
+#	localhost
+#	192.168.3.12
+#	chambord:1100
+#	caraibe.irit.fr:1101
+#	etc...
+# REM : le port par défaut est celui de RMI : 1099.
+#
+# Les lignes commençant par '#' sont ignorées, ainsi que les lignes vides.
+#
+# Les places suivies de la chaine de caractères "debug" seront lancées 
+# en mode debug (example : localhost:1101 debug)
+#
+
+localhost
+localhost:1100
+localhost:1101
+localhost:1110
