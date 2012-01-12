@@ -1,0 +1,139 @@
+<INFO  2012-01-12 10:39:14,401 NullConfigurator::<init>:132> JXTA_HOME = file:/mci/ei0912/lafontai/workspace/jxta/tp_jxta_mai2005/.jxta
+<WARN  2012-01-12 10:39:14,406 NullConfigurator::load:233> Platform Config not found : file:/mci/ei0912/lafontai/workspace/jxta/tp_jxta_mai2005/.jxta/PlatformConfig
+<INFO  2012-01-12 10:39:14,406 NullConfigurator::adjustLog4JPriority:308> Log4J logging preference not set, using defaults
+<INFO  2012-01-12 10:39:14,406 AutomaticConfigurator::buildPlatformConfig:159> New PlatformConfig Advertisement
+<INFO  2012-01-12 10:39:14,434 AutomaticConfigurator::buildPlatformConfig:223> HTTP advertisement missing, making a new one.
+<INFO  2012-01-12 10:39:14,436 AutomaticConfigurator::buildPlatformConfig:305> TCP advertisement missing, making a new one.
+<INFO  2012-01-12 10:39:14,438 AutomaticConfigurator::buildPlatformConfig:365> Relay Config advertisement missing, making a new one.
+<INFO  2012-01-12 10:39:14,441 AutomaticConfigurator::buildPlatformConfig:405> Rdv Config advertisement missing, making a new one.
+<INFO  2012-01-12 10:39:14,443 AutomaticConfigurator::buildPlatformConfig:430> Proxy config advertisement missing, making a new one.
+<INFO  2012-01-12 10:39:14,450 DefaultConfigurator::getPlatformConfig:188> Reconfig requested - No security info
+<INFO  2012-01-12 10:39:57,237 NullConfigurator::adjustLog4JPriority:316> Log4J [user default] requested, not adjusting logging priority
+<INFO  2012-01-12 10:39:57,260 NullConfigurator::<init>:132> JXTA_HOME = file:/mci/ei0912/lafontai/workspace/jxta/tp_jxta_mai2005/.jxta
+<INFO  2012-01-12 10:39:57,264 NullConfigurator::adjustLog4JPriority:316> Log4J [user default] requested, not adjusting logging priority
+<INFO  2012-01-12 10:39:57,445 NullConfigurator::adjustLog4JPriority:316> Log4J [user default] requested, not adjusting logging priority
+<INFO  2012-01-12 10:48:43,523 NullConfigurator::<init>:132> JXTA_HOME = file:/mci/ei0912/lafontai/workspace/jxta/tp_jxta_mai2005/.jxta/
+<INFO  2012-01-12 10:48:43,558 NullConfigurator::adjustLog4JPriority:316> Log4J [user default] requested, not adjusting logging priority
+<INFO  2012-01-12 10:48:43,775 NullConfigurator::<init>:132> JXTA_HOME = file:/mci/ei0912/lafontai/workspace/jxta/tp_jxta_mai2005/.jxta/
+<INFO  2012-01-12 10:48:43,779 NullConfigurator::adjustLog4JPriority:316> Log4J [user default] requested, not adjusting logging priority
+<INFO  2012-01-12 10:48:43,937 NullConfigurator::adjustLog4JPriority:316> Log4J [user default] requested, not adjusting logging priority
+<INFO  2012-01-12 11:02:20,019 NullConfigurator::<init>:132> JXTA_HOME = file:/mci/ei0912/lafontai/workspace/jxta/tp_jxta_mai2005/.jxta/
+<INFO  2012-01-12 11:02:20,053 NullConfigurator::adjustLog4JPriority:316> Log4J [user default] requested, not adjusting logging priority
+<INFO  2012-01-12 11:02:20,290 NullConfigurator::<init>:132> JXTA_HOME = file:/mci/ei0912/lafontai/workspace/jxta/tp_jxta_mai2005/.jxta/
+<INFO  2012-01-12 11:02:20,294 NullConfigurator::adjustLog4JPriority:316> Log4J [user default] requested, not adjusting logging priority
+<INFO  2012-01-12 11:02:20,474 NullConfigurator::adjustLog4JPriority:316> Log4J [user default] requested, not adjusting logging priority
+<INFO  2012-01-12 11:02:59,488 NullConfigurator::<init>:132> JXTA_HOME = file:/mci/ei0912/lafontai/workspace/jxta/tp_jxta_mai2005/.jxta/
+<INFO  2012-01-12 11:02:59,523 NullConfigurator::adjustLog4JPriority:316> Log4J [user default] requested, not adjusting logging priority
+<INFO  2012-01-12 11:02:59,739 NullConfigurator::<init>:132> JXTA_HOME = file:/mci/ei0912/lafontai/workspace/jxta/tp_jxta_mai2005/.jxta/
+<INFO  2012-01-12 11:02:59,743 NullConfigurator::adjustLog4JPriority:316> Log4J [user default] requested, not adjusting logging priority
+<INFO  2012-01-12 11:02:59,901 NullConfigurator::adjustLog4JPriority:316> Log4J [user default] requested, not adjusting logging priority
+<INFO  2012-01-12 11:03:40,126 NullConfigurator::<init>:132> JXTA_HOME = file:/mci/ei0912/lafontai/workspace/jxta/tp_jxta_mai2005/.jxta/
+<INFO  2012-01-12 11:03:40,161 NullConfigurator::adjustLog4JPriority:316> Log4J [user default] requested, not adjusting logging priority
+<INFO  2012-01-12 11:03:40,377 NullConfigurator::<init>:132> JXTA_HOME = file:/mci/ei0912/lafontai/workspace/jxta/tp_jxta_mai2005/.jxta/
+<INFO  2012-01-12 11:03:40,381 NullConfigurator::adjustLog4JPriority:316> Log4J [user default] requested, not adjusting logging priority
+<INFO  2012-01-12 11:03:40,539 NullConfigurator::adjustLog4JPriority:316> Log4J [user default] requested, not adjusting logging priority
+<INFO  2012-01-12 11:03:46,440 NullConfigurator::<init>:132> JXTA_HOME = file:/mci/ei0912/lafontai/workspace/jxta/tp_jxta_mai2005/.jxta/
+<INFO  2012-01-12 11:03:46,475 NullConfigurator::adjustLog4JPriority:316> Log4J [user default] requested, not adjusting logging priority
+<INFO  2012-01-12 11:03:46,693 NullConfigurator::<init>:132> JXTA_HOME = file:/mci/ei0912/lafontai/workspace/jxta/tp_jxta_mai2005/.jxta/
+<INFO  2012-01-12 11:03:46,697 NullConfigurator::adjustLog4JPriority:316> Log4J [user default] requested, not adjusting logging priority
+<INFO  2012-01-12 11:03:46,857 NullConfigurator::adjustLog4JPriority:316> Log4J [user default] requested, not adjusting logging priority
+<INFO  2012-01-12 11:04:10,380 NullConfigurator::<init>:132> JXTA_HOME = file:/mci/ei0912/lafontai/workspace/jxta/tp_jxta_mai2005/.jxta/
+<INFO  2012-01-12 11:04:10,414 NullConfigurator::adjustLog4JPriority:316> Log4J [user default] requested, not adjusting logging priority
+<INFO  2012-01-12 11:04:10,631 NullConfigurator::<init>:132> JXTA_HOME = file:/mci/ei0912/lafontai/workspace/jxta/tp_jxta_mai2005/.jxta/
+<INFO  2012-01-12 11:04:10,635 NullConfigurator::adjustLog4JPriority:316> Log4J [user default] requested, not adjusting logging priority
+<INFO  2012-01-12 11:04:10,791 NullConfigurator::adjustLog4JPriority:316> Log4J [user default] requested, not adjusting logging priority
+<INFO  2012-01-12 11:11:22,826 NullConfigurator::<init>:132> JXTA_HOME = file:/mci/ei0912/lafontai/workspace/jxta/tp_jxta_mai2005/.jxta/
+<INFO  2012-01-12 11:11:22,862 NullConfigurator::adjustLog4JPriority:316> Log4J [user default] requested, not adjusting logging priority
+<INFO  2012-01-12 11:11:23,082 NullConfigurator::<init>:132> JXTA_HOME = file:/mci/ei0912/lafontai/workspace/jxta/tp_jxta_mai2005/.jxta/
+<INFO  2012-01-12 11:11:23,086 NullConfigurator::adjustLog4JPriority:316> Log4J [user default] requested, not adjusting logging priority
+<INFO  2012-01-12 11:11:23,252 NullConfigurator::adjustLog4JPriority:316> Log4J [user default] requested, not adjusting logging priority
+<INFO  2012-01-12 11:13:12,970 NullConfigurator::<init>:132> JXTA_HOME = file:/mci/ei0912/lafontai/workspace/jxta/tp_jxta_mai2005/.jxta/
+<INFO  2012-01-12 11:13:13,004 NullConfigurator::adjustLog4JPriority:316> Log4J [user default] requested, not adjusting logging priority
+<INFO  2012-01-12 11:13:13,223 NullConfigurator::<init>:132> JXTA_HOME = file:/mci/ei0912/lafontai/workspace/jxta/tp_jxta_mai2005/.jxta/
+<INFO  2012-01-12 11:13:13,227 NullConfigurator::adjustLog4JPriority:316> Log4J [user default] requested, not adjusting logging priority
+<INFO  2012-01-12 11:13:13,388 NullConfigurator::adjustLog4JPriority:316> Log4J [user default] requested, not adjusting logging priority
+<INFO  2012-01-12 11:14:57,876 NullConfigurator::<init>:132> JXTA_HOME = file:/mci/ei0912/lafontai/workspace/jxta/tp_jxta_mai2005/.jxta/
+<INFO  2012-01-12 11:14:57,911 NullConfigurator::adjustLog4JPriority:316> Log4J [user default] requested, not adjusting logging priority
+<INFO  2012-01-12 11:14:58,129 NullConfigurator::<init>:132> JXTA_HOME = file:/mci/ei0912/lafontai/workspace/jxta/tp_jxta_mai2005/.jxta/
+<INFO  2012-01-12 11:14:58,133 NullConfigurator::adjustLog4JPriority:316> Log4J [user default] requested, not adjusting logging priority
+<INFO  2012-01-12 11:14:58,298 NullConfigurator::adjustLog4JPriority:316> Log4J [user default] requested, not adjusting logging priority
+<INFO  2012-01-12 11:16:07,780 NullConfigurator::<init>:132> JXTA_HOME = file:/mci/ei0912/lafontai/workspace/jxta/tp_jxta_mai2005/.jxta/
+<INFO  2012-01-12 11:16:07,814 NullConfigurator::adjustLog4JPriority:316> Log4J [user default] requested, not adjusting logging priority
+<INFO  2012-01-12 11:16:08,031 NullConfigurator::<init>:132> JXTA_HOME = file:/mci/ei0912/lafontai/workspace/jxta/tp_jxta_mai2005/.jxta/
+<INFO  2012-01-12 11:16:08,035 NullConfigurator::adjustLog4JPriority:316> Log4J [user default] requested, not adjusting logging priority
+<INFO  2012-01-12 11:16:08,195 NullConfigurator::adjustLog4JPriority:316> Log4J [user default] requested, not adjusting logging priority
+<INFO  2012-01-12 11:18:23,288 NullConfigurator::<init>:132> JXTA_HOME = file:/mci/ei0912/lafontai/workspace/jxta/tp_jxta_mai2005/.jxta/
+<INFO  2012-01-12 11:18:23,322 NullConfigurator::adjustLog4JPriority:316> Log4J [user default] requested, not adjusting logging priority
+<INFO  2012-01-12 11:18:23,537 NullConfigurator::<init>:132> JXTA_HOME = file:/mci/ei0912/lafontai/workspace/jxta/tp_jxta_mai2005/.jxta/
+<INFO  2012-01-12 11:18:23,541 NullConfigurator::adjustLog4JPriority:316> Log4J [user default] requested, not adjusting logging priority
+<INFO  2012-01-12 11:18:23,701 NullConfigurator::adjustLog4JPriority:316> Log4J [user default] requested, not adjusting logging priority
+<INFO  2012-01-12 11:20:45,697 NullConfigurator::<init>:132> JXTA_HOME = file:/mci/ei0912/lafontai/workspace/jxta/tp_jxta_mai2005/.jxta/
+<INFO  2012-01-12 11:20:45,732 NullConfigurator::adjustLog4JPriority:316> Log4J [user default] requested, not adjusting logging priority
+<INFO  2012-01-12 11:20:45,949 NullConfigurator::<init>:132> JXTA_HOME = file:/mci/ei0912/lafontai/workspace/jxta/tp_jxta_mai2005/.jxta/
+<INFO  2012-01-12 11:20:45,953 NullConfigurator::adjustLog4JPriority:316> Log4J [user default] requested, not adjusting logging priority
+<INFO  2012-01-12 11:20:46,112 NullConfigurator::adjustLog4JPriority:316> Log4J [user default] requested, not adjusting logging priority
+<INFO  2012-01-12 11:21:36,162 NullConfigurator::<init>:132> JXTA_HOME = file:/mci/ei0912/lafontai/workspace/jxta/tp_jxta_mai2005/.jxta/
+<INFO  2012-01-12 11:21:36,196 NullConfigurator::adjustLog4JPriority:316> Log4J [user default] requested, not adjusting logging priority
+<INFO  2012-01-12 11:21:36,415 NullConfigurator::<init>:132> JXTA_HOME = file:/mci/ei0912/lafontai/workspace/jxta/tp_jxta_mai2005/.jxta/
+<INFO  2012-01-12 11:21:36,419 NullConfigurator::adjustLog4JPriority:316> Log4J [user default] requested, not adjusting logging priority
+<INFO  2012-01-12 11:21:36,577 NullConfigurator::adjustLog4JPriority:316> Log4J [user default] requested, not adjusting logging priority
+<INFO  2012-01-12 11:26:18,436 NullConfigurator::<init>:132> JXTA_HOME = file:/mci/ei0912/lafontai/workspace/jxta/tp_jxta_mai2005/.jxta/
+<INFO  2012-01-12 11:26:18,471 NullConfigurator::adjustLog4JPriority:316> Log4J [user default] requested, not adjusting logging priority
+<INFO  2012-01-12 11:26:18,688 NullConfigurator::<init>:132> JXTA_HOME = file:/mci/ei0912/lafontai/workspace/jxta/tp_jxta_mai2005/.jxta/
+<INFO  2012-01-12 11:26:18,692 NullConfigurator::adjustLog4JPriority:316> Log4J [user default] requested, not adjusting logging priority
+<INFO  2012-01-12 11:26:18,855 NullConfigurator::adjustLog4JPriority:316> Log4J [user default] requested, not adjusting logging priority
+<INFO  2012-01-12 11:30:45,175 NullConfigurator::<init>:132> JXTA_HOME = file:/mci/ei0912/lafontai/workspace/jxta/tp_jxta_mai2005/.jxta/
+<INFO  2012-01-12 11:30:45,214 NullConfigurator::adjustLog4JPriority:316> Log4J [user default] requested, not adjusting logging priority
+<INFO  2012-01-12 11:30:45,439 NullConfigurator::<init>:132> JXTA_HOME = file:/mci/ei0912/lafontai/workspace/jxta/tp_jxta_mai2005/.jxta/
+<INFO  2012-01-12 11:30:45,443 NullConfigurator::adjustLog4JPriority:316> Log4J [user default] requested, not adjusting logging priority
+<INFO  2012-01-12 11:30:45,617 NullConfigurator::adjustLog4JPriority:316> Log4J [user default] requested, not adjusting logging priority
+<INFO  2012-01-12 11:31:33,407 NullConfigurator::<init>:132> JXTA_HOME = file:/mci/ei0912/lafontai/workspace/jxta/tp_jxta_mai2005/.jxta/
+<INFO  2012-01-12 11:31:33,443 NullConfigurator::adjustLog4JPriority:316> Log4J [user default] requested, not adjusting logging priority
+<INFO  2012-01-12 11:31:33,662 NullConfigurator::<init>:132> JXTA_HOME = file:/mci/ei0912/lafontai/workspace/jxta/tp_jxta_mai2005/.jxta/
+<INFO  2012-01-12 11:31:33,667 NullConfigurator::adjustLog4JPriority:316> Log4J [user default] requested, not adjusting logging priority
+<INFO  2012-01-12 11:31:33,828 NullConfigurator::adjustLog4JPriority:316> Log4J [user default] requested, not adjusting logging priority
+<INFO  2012-01-12 11:32:56,657 NullConfigurator::<init>:132> JXTA_HOME = file:/mci/ei0912/lafontai/workspace/jxta/tp_jxta_mai2005/.jxta/
+<INFO  2012-01-12 11:32:56,692 NullConfigurator::adjustLog4JPriority:316> Log4J [user default] requested, not adjusting logging priority
+<INFO  2012-01-12 11:32:56,911 NullConfigurator::<init>:132> JXTA_HOME = file:/mci/ei0912/lafontai/workspace/jxta/tp_jxta_mai2005/.jxta/
+<INFO  2012-01-12 11:32:56,915 NullConfigurator::adjustLog4JPriority:316> Log4J [user default] requested, not adjusting logging priority
+<INFO  2012-01-12 11:32:57,076 NullConfigurator::adjustLog4JPriority:316> Log4J [user default] requested, not adjusting logging priority
+<INFO  2012-01-12 11:35:08,007 NullConfigurator::<init>:132> JXTA_HOME = file:/mci/ei0912/lafontai/workspace/jxta/tp_jxta_mai2005/.jxta/
+<INFO  2012-01-12 11:35:08,042 NullConfigurator::adjustLog4JPriority:316> Log4J [user default] requested, not adjusting logging priority
+<INFO  2012-01-12 11:35:08,259 NullConfigurator::<init>:132> JXTA_HOME = file:/mci/ei0912/lafontai/workspace/jxta/tp_jxta_mai2005/.jxta/
+<INFO  2012-01-12 11:35:08,263 NullConfigurator::adjustLog4JPriority:316> Log4J [user default] requested, not adjusting logging priority
+<INFO  2012-01-12 11:35:08,423 NullConfigurator::adjustLog4JPriority:316> Log4J [user default] requested, not adjusting logging priority
+<INFO  2012-01-12 11:36:07,575 NullConfigurator::<init>:132> JXTA_HOME = file:/mci/ei0912/lafontai/workspace/jxta/tp_jxta_mai2005/.jxta/
+<INFO  2012-01-12 11:36:07,610 NullConfigurator::adjustLog4JPriority:316> Log4J [user default] requested, not adjusting logging priority
+<INFO  2012-01-12 11:36:07,828 NullConfigurator::<init>:132> JXTA_HOME = file:/mci/ei0912/lafontai/workspace/jxta/tp_jxta_mai2005/.jxta/
+<INFO  2012-01-12 11:36:07,832 NullConfigurator::adjustLog4JPriority:316> Log4J [user default] requested, not adjusting logging priority
+<INFO  2012-01-12 11:36:07,992 NullConfigurator::adjustLog4JPriority:316> Log4J [user default] requested, not adjusting logging priority
+<INFO  2012-01-12 11:38:27,502 NullConfigurator::<init>:132> JXTA_HOME = file:/mci/ei0912/lafontai/workspace/jxta/tp_jxta_mai2005/.jxta/
+<INFO  2012-01-12 11:38:27,537 NullConfigurator::adjustLog4JPriority:316> Log4J [user default] requested, not adjusting logging priority
+<INFO  2012-01-12 11:38:27,753 NullConfigurator::<init>:132> JXTA_HOME = file:/mci/ei0912/lafontai/workspace/jxta/tp_jxta_mai2005/.jxta/
+<INFO  2012-01-12 11:38:27,757 NullConfigurator::adjustLog4JPriority:316> Log4J [user default] requested, not adjusting logging priority
+<INFO  2012-01-12 11:38:27,918 NullConfigurator::adjustLog4JPriority:316> Log4J [user default] requested, not adjusting logging priority
+<INFO  2012-01-12 11:39:46,745 NullConfigurator::<init>:132> JXTA_HOME = file:/mci/ei0912/lafontai/workspace/jxta/tp_jxta_mai2005/.jxta/
+<INFO  2012-01-12 11:39:46,780 NullConfigurator::adjustLog4JPriority:316> Log4J [user default] requested, not adjusting logging priority
+<INFO  2012-01-12 11:39:46,998 NullConfigurator::<init>:132> JXTA_HOME = file:/mci/ei0912/lafontai/workspace/jxta/tp_jxta_mai2005/.jxta/
+<INFO  2012-01-12 11:39:47,001 NullConfigurator::adjustLog4JPriority:316> Log4J [user default] requested, not adjusting logging priority
+<INFO  2012-01-12 11:39:47,161 NullConfigurator::adjustLog4JPriority:316> Log4J [user default] requested, not adjusting logging priority
+<INFO  2012-01-12 11:43:09,207 NullConfigurator::<init>:132> JXTA_HOME = file:/mci/ei0912/lafontai/workspace/jxta/tp_jxta_mai2005/.jxta/
+<INFO  2012-01-12 11:43:09,242 NullConfigurator::adjustLog4JPriority:316> Log4J [user default] requested, not adjusting logging priority
+<INFO  2012-01-12 11:43:09,460 NullConfigurator::<init>:132> JXTA_HOME = file:/mci/ei0912/lafontai/workspace/jxta/tp_jxta_mai2005/.jxta/
+<INFO  2012-01-12 11:43:09,464 NullConfigurator::adjustLog4JPriority:316> Log4J [user default] requested, not adjusting logging priority
+<INFO  2012-01-12 11:43:09,624 NullConfigurator::adjustLog4JPriority:316> Log4J [user default] requested, not adjusting logging priority
+<INFO  2012-01-12 11:45:28,662 NullConfigurator::<init>:132> JXTA_HOME = file:/mci/ei0912/lafontai/workspace/jxta/tp_jxta_mai2005/.jxta/
+<INFO  2012-01-12 11:45:28,696 NullConfigurator::adjustLog4JPriority:316> Log4J [user default] requested, not adjusting logging priority
+<INFO  2012-01-12 11:45:28,911 NullConfigurator::<init>:132> JXTA_HOME = file:/mci/ei0912/lafontai/workspace/jxta/tp_jxta_mai2005/.jxta/
+<INFO  2012-01-12 11:45:28,915 NullConfigurator::adjustLog4JPriority:316> Log4J [user default] requested, not adjusting logging priority
+<INFO  2012-01-12 11:45:29,075 NullConfigurator::adjustLog4JPriority:316> Log4J [user default] requested, not adjusting logging priority
+<INFO  2012-01-12 11:45:34,053 NullConfigurator::<init>:132> JXTA_HOME = file:/mci/ei0912/lafontai/workspace/jxta/tp_jxta_mai2005/.jxta/
+<INFO  2012-01-12 11:45:34,088 NullConfigurator::adjustLog4JPriority:316> Log4J [user default] requested, not adjusting logging priority
+<INFO  2012-01-12 11:45:34,311 NullConfigurator::<init>:132> JXTA_HOME = file:/mci/ei0912/lafontai/workspace/jxta/tp_jxta_mai2005/.jxta/
+<INFO  2012-01-12 11:45:34,315 NullConfigurator::adjustLog4JPriority:316> Log4J [user default] requested, not adjusting logging priority
+<INFO  2012-01-12 11:45:34,475 NullConfigurator::adjustLog4JPriority:316> Log4J [user default] requested, not adjusting logging priority
+<INFO  2012-01-12 11:46:42,869 NullConfigurator::<init>:132> JXTA_HOME = file:/mci/ei0912/lafontai/workspace/jxta/tp_jxta_mai2005/.jxta/
+<INFO  2012-01-12 11:46:42,904 NullConfigurator::adjustLog4JPriority:316> Log4J [user default] requested, not adjusting logging priority
+<INFO  2012-01-12 11:46:43,123 NullConfigurator::<init>:132> JXTA_HOME = file:/mci/ei0912/lafontai/workspace/jxta/tp_jxta_mai2005/.jxta/
+<INFO  2012-01-12 11:46:43,127 NullConfigurator::adjustLog4JPriority:316> Log4J [user default] requested, not adjusting logging priority
+<INFO  2012-01-12 11:46:43,285 NullConfigurator::adjustLog4JPriority:316> Log4J [user default] requested, not adjusting logging priority
